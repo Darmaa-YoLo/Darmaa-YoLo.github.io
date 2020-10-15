@@ -1,0 +1,66 @@
+* {
+  font-family: "Inconsolata", monospace !important;
+}
+
+a:hover,
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color:rgb(37,41,52);
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(141, 121, 251);
+  border-radius:2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(72, 0, 226);
+}
+
+.thumbnail {
+  background-color: rgb(37,41,52);
+  height: 100vh;
+}
+
+.greeting {
+  font-size: 48px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 100%;
+  margin-top: 12.5%;
+  margin-bottom: 2%;
+}
+
+.cta {
+  width: 340px;
+  height: 56px;
+  font-size: 36px;
+  color: rgba(255, 255, 255, 0.85);
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  transition: background 0.2s linear;
+
+}
+
+.cta:hover {
+  border: 2px solid transparent;
+  cursor: pointer;
+  background-color: rgb(5,194,201);
+}
+
+.about {
+  height: 100vh;
+  background-color: green;
+}
+
+.projects {
+  height: 100vh;
+  background-color: black;
+}
